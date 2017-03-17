@@ -84,11 +84,11 @@ The Guardian heeft bij de Webby Awards de beste prijs gekregen voor UX en wannee
 
 ### 1. Javascript uitzetten
 
-Ik heb gekeken naar wat er gebeurd als ik Javascript op de www.cmd-amsterdam.nl website uitschakel en er gebeuren teveel slechte dingen.
+Ik heb gekeken naar wat er gebeurd als ik Javascript op de www.cmd-amsterdam.nl website uitschakel. Conclusie: er gebeuren teveel slechte dingen.
 
 #### Homepage
 
-Als Javascript aanstaat dan zie je dat er een mooie grote slider aanwezig is waarin een mooie grote foto staat, maar zodra ik Javascript uitzet dan is de hele slider verdwenen - wat vrij logisch is aangezien de slider op Javascript werkt - maar dat de foto verdwijnt lijkt mij niet zo heel handig, aangezien de foto toch een bepaalde sfeer overbrengt.
+Als Javascript aanstaat dan zie je dat er een mooie grote slider aanwezig is waarin ook een mooie grote foto staat, maar zodra ik Javascript uitzet dan is de hele slider verdwenen - wat vrij logisch is aangezien de slider op Javascript werkt - maar dat de foto verdwijnt lijkt mij niet zo heel handig. De foto is bedoeld om de sfeer ook enigszins over te brengen.
 
 Met JS:
 
@@ -98,15 +98,15 @@ Zonder JS:
 
 ![alt text](https://github.com/Mimaaa/MINOR_WD_BROTECH/blob/master/img/hpnojs.png "Javascript uitgeschakeld")
 
-Oplossing:
+Oplossing
 
-Ter fallback zou het kunnen helpen om een fallback te maken waarin je zegt: als de slider niet wordt ingeladen laat dan een normale foto zien.
+Als fallback zou het ideaal zijn om te zeggen: als de slider niet wordt ingeladen laat dan een normale foto zien. Wellicht met een noscript?
 
 Bij het inladen van de slider.js worden ook twee buttons ingeladen die belangrijk voor de interactie kunnen zijn. Deze kunnen natuurlijk ook met html/css getoond worden.
 
 #### Studentenwerk pagina
 
-De homepage is dus al niet bestand tegen wanneer JS het begeeft, maar ik was toch benieuwd wat er zou gebeuren als ik een andere pagina zou bezoeken. Dat verliep ook niet zo lekker. Toen ik de studenwerk pagina bezocht kreeg ik alleen onderstaande te zien in plaats van een mooie interactieve pagina zoals die wordt getoond wanneer JS aanstaat.
+De homepage begeeft het al redelijk snel zonder JS, maar ik was toch benieuwd wat er zou gebeuren als ik een andere pagina zou bezoeken. Toen ik de studenwerk pagina bezocht kreeg ik alleen het onderstaande te zien in plaats van een mooie interactieve pagina zoals die wordt getoond wanneer JS aanstaat.
 
 ![alt text](https://github.com/Mimaaa/MINOR_WD_BROTECH/blob/master/img/studentenwerk-nojs.png "Studentenwerk-pagina zonder JS")
 
@@ -118,20 +118,73 @@ Nog wat andere dingen die mij opvielen zijn dat je ook niet kan zoeken op de web
 
 Het enige wat er gebeurt is dat de custom icon fonts niet meer werken. In dit geval het zoek-icoon - dat vrij belangrijk is, maar eveneens de social media iconen. 
 
-Op de studentenwerk pagina doen de hartjes het ook niet meer. 
+Op de studentenwerk pagina doen de hartjes het ook niet meer.
 
 Oplossing:
 
-De oplossing is natuurlijk het gebruik maken van SVG's in plaats van custom fonts.
+Het probleem kan worden verholpen door gebruik te maken van SVG's in plaats van custom fonts.
 
 ### 3. Kleur
 
 Ik heb de tool Sim Daltonism gebruikt om te kijken wat er gebeurd als mensen met kleurenblindheid de website bezoeken en of bijvoorbeeld bepaalde knoppen nog goed te gebruiken/zien zijn, maar ook om te zien wat er met de contrasten gebeurd.
 
-Geen bijzonderheden dus.
+Hier waren geen bijzonderheden.
 
-### 4.  
+### 4. Images
 
+De CMD-Amstedam site bestaat uit ontzettend veel plaatjes en op veel plaatjes zit ook een interactie.
+
+#### Homepage
+
+Hier mist natuurlijk de grote slider afbeelding, maar het is eveneens zonde dat hier de twee buttons weer niet te zien zijn.
+
+#### CMD
+
+Hetzelfde als op de homepage: de grote afbeelding uit de slider mist, maar natuurlijk ook de plaatjes die de content versterken.
+
+#### Studentenwerk
+
+Deze pagina is interessant, want hier zit een interactie-element op de afbeeldingen: wanneer je over de afbeeldingen hovered dan krijg je twee opties 1) view larger en 2) more details.
+
+Op de desktop kan je alsnog over de alt tekst hoveren waardoor die twee opties naar voren komen, maar op mobiel zie je niet dat je deze opties hebt en daardoor kan een gebruiker niet verder naar de details.
+
+#### Blog
+
+Deze pagina gaat helemaal stuk, want elk plaatje is een link naar de blogpost.
+
+Met plaatjes:
+
+![alt text](https://github.com/Mimaaa/MINOR_WD_BROTECH/blob/master/img/blog-img.png "Plaatjes")
+
+Zonder plaatjes:
+
+![alt text](https://github.com/Mimaaa/MINOR_WD_BROTECH/blob/master/img/blog-noimg.png "Geen plaatjes")
+
+#### Overige
+
+Op de overige pagina's geldt grotendeels hetzelfde als bij CMD en Studentenwerk.
+
+Oplossing: 
+
+Het enige wat je ziet gebeuren wanneer iemand over de plaatjes op de blog pagina hovered is dat de opacity veranderd. Het lijkt mij dat je helemaal geen Javascript nodig hebt om deze pagina interactief te maken. Een prima fallback kan zijn om simpelweg CSS te gebruiken om hetzelfde voor elkaar te krijgen, maar wellicht denk ik te simpel?
+
+### 5. Breedband internet
+
+Wanneer ik de snelheid naar DSL verlaag en de pagina ververs dan duurt het 10 seconden voordat de eerste interactieve content verschijnt. Met behulp van de technieken die wij bij Performance Matters hebben toegepast zijn er verschillende dingen mogelijk om de bruibaarheid van de CMD website significant te verbeteren.
+
+Enkele technieken:
+
+- Critical CSS
+- Minify & gZip HTML/CSS/JS
+- Image Compressions
+
+### 6. Geen trackpad/muis
+
+Ik heb het in Firefox en Chrome getest, maar er zijn helemaal geen focus styles aanwezig. Het lijkt erop dat deze op display: none staan. Heel erg vervelend natuurlijk, want op deze manier kunnen mensen die bijv. 1 arm niet kunnen gebruiken niet met de website interacteren. 
+
+Oplossing:
+
+Duidelijke focus styles inplementeren.
 
 
 
