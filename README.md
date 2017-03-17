@@ -104,14 +104,33 @@ Ter fallback zou het kunnen helpen om een fallback te maken waarin je zegt: als 
 
 Bij het inladen van de slider.js worden ook twee buttons ingeladen die belangrijk voor de interactie kunnen zijn. Deze kunnen natuurlijk ook met html/css getoond worden.
 
-#### Portfolio-pagina
+#### Studentenwerk pagina
 
-De homepage is dus al niet bestand tegen wanneer JS het begeeft, maar ik was toch benieuwd wat er zou gebeuren als ik een andere pagina zou bezoeken. Dat verliep ook niet zo lekker. Toen ik de portfolio pagina bezocht kreeg ik alleen dit te zien:
+De homepage is dus al niet bestand tegen wanneer JS het begeeft, maar ik was toch benieuwd wat er zou gebeuren als ik een andere pagina zou bezoeken. Dat verliep ook niet zo lekker. Toen ik de studenwerk pagina bezocht kreeg ik alleen onderstaande te zien in plaats van een mooie interactieve pagina zoals die wordt getoond wanneer JS aanstaat.
 
-![alt text](https://github.com/Mimaaa/MINOR_WD_BROTECH/blob/master/img/portfolio-nojs.png "Portfolio-pagina zonder JS")
+![alt text](https://github.com/Mimaaa/MINOR_WD_BROTECH/blob/master/img/studentenwerk-nojs.png "Studentenwerk-pagina zonder JS")
 
+#### Overige
 
+Nog wat andere dingen die mij opvielen zijn dat je ook niet kan zoeken op de website wanneer JS het niet meer doet.
 
+### 2. Custom Fonts
+
+Het enige wat er gebeurt is dat de custom icon fonts niet meer werken. In dit geval het zoek-icoon - dat vrij belangrijk is, maar eveneens de social media iconen. 
+
+Op de studentenwerk pagina doen de hartjes het ook niet meer. 
+
+Oplossing:
+
+De oplossing is natuurlijk het gebruik maken van SVG's in plaats van custom fonts.
+
+### 3. Kleur
+
+Ik heb de tool Sim Daltonism gebruikt om te kijken wat er gebeurd als mensen met kleurenblindheid de website bezoeken en of bijvoorbeeld bepaalde knoppen nog goed te gebruiken/zien zijn, maar ook om te zien wat er met de contrasten gebeurd.
+
+Geen bijzonderheden dus.
+
+### 4.  
 
 
 
