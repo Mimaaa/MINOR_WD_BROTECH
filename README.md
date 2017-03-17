@@ -82,5 +82,43 @@ The Guardian heeft bij de Webby Awards de beste prijs gekregen voor UX en wannee
 
 ## Opdracht 1.2
 
+### 1. Javascript uitzetten
+
+Ik heb gekeken naar wat er gebeurd als ik Javascript op de www.cmd-amsterdam.nl website uitschakel en er gebeuren teveel slechte dingen.
+
+#### Homepage
+
+Als Javascript aanstaat dan zie je dat er een mooie grote slider aanwezig is waarin een mooie grote foto staat, maar zodra ik Javascript uitzet dan is de hele slider verdwenen - wat vrij logisch is aangezien de slider op Javascript werkt - maar dat de foto verdwijnt lijkt mij niet zo heel handig, aangezien de foto toch een bepaalde sfeer overbrengt.
+
+Met JS:
+
+![alt text](https://github.com/Mimaaa/MINOR_WD_BROTECH/blob/master/img/hpjs.png "Javascript ingeschakeld")
+
+Zonder JS:
+
+![alt text](https://github.com/Mimaaa/MINOR_WD_BROTECH/blob/master/img/hpnojs.png "Javascript uitgeschakeld")
+
+Oplossing:
+
+Ter fallback zou het kunnen helpen om een fallback te maken waarin je zegt: als de slider niet wordt ingeladen laat dan een normale foto zien.
+
+Bij het inladen van de slider.js worden ook twee buttons ingeladen die belangrijk voor de interactie kunnen zijn. Deze kunnen natuurlijk ook met html/css getoond worden.
+
+#### Portfolio-pagina
+
+De homepage is dus al niet bestand tegen wanneer JS het begeeft, maar ik was toch benieuwd wat er zou gebeuren als ik een andere pagina zou bezoeken. Dat verliep ook niet zo lekker. Toen ik de portfolio pagina bezocht kreeg ik alleen dit te zien:
+
+![alt text](https://github.com/Mimaaa/MINOR_WD_BROTECH/blob/master/img/portfolio-nojs.png "Portfolio-pagina zonder JS")
+
+
+
+
+
+
+
+
+
+
+
 
 
