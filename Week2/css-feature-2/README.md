@@ -4,7 +4,7 @@ I've used [this](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layou
 
 ## LIVE
 
-
+[DEMO](https://mimaaa.github.io/BROTECH/Week2/css-feature-2/index.html)
 
 ## What is Grid?
 
