@@ -186,6 +186,11 @@ Oplossing:
 
 Duidelijke focus styles inplementeren.
 
+### 7. Cookies
+
+
+### 8. localStorage
+
 
 
 
