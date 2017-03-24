@@ -92,11 +92,11 @@ Als Javascript aanstaat dan zie je dat er een mooie grote slider aanwezig is waa
 
 Met JS:
 
-![alt text](https://github.com/Mimaaa/MINOR_WD_BROTECH/blob/master/img/hpjs.png "Javascript ingeschakeld")
+![alt text](https://github.com/Mimaaa/MINOR_WD_BROTECH/blob/master/Week1/img/hpjs.png "Javascript ingeschakeld")
 
 Zonder JS:
 
-![alt text](https://github.com/Mimaaa/MINOR_WD_BROTECH/blob/master/img/hpnojs.png "Javascript uitgeschakeld")
+![alt text](https://github.com/Mimaaa/MINOR_WD_BROTECH/blob/master/Week1/img/hpnojs.png "Javascript uitgeschakeld")
 
 Oplossing
 
@@ -108,7 +108,7 @@ Bij het inladen van de slider.js worden ook twee buttons ingeladen die belangrij
 
 De homepage begeeft het al redelijk snel zonder JS, maar ik was toch benieuwd wat er zou gebeuren als ik een andere pagina zou bezoeken. Toen ik de studenwerk pagina bezocht kreeg ik alleen het onderstaande te zien in plaats van een mooie interactieve pagina zoals die wordt getoond wanneer JS aanstaat.
 
-![alt text](https://github.com/Mimaaa/MINOR_WD_BROTECH/blob/master/img/studentenwerk-nojs.png "Studentenwerk-pagina zonder JS")
+![alt text](https://github.com/Mimaaa/MINOR_WD_BROTECH/blob/master/Week1/img/studentenwerk-nojs.png "Studentenwerk-pagina zonder JS")
 
 #### Overige
 
@@ -116,7 +116,7 @@ Nog wat andere dingen die mij opvielen zijn dat je ook niet kan zoeken op de web
 
 ### 2. Custom Fonts
 
-Het enige wat er gebeurt is dat de custom icon fonts niet meer werken. In dit geval het zoek-icoon - dat vrij belangrijk is, maar eveneens de social media iconen. 
+Het enige wat er gebeurt is dat de custom icon fonts niet meer werken. In dit geval het zoek-icoon - dat vrij belangrijk is, maar eveneens de social media iconen.
 
 Op de studentenwerk pagina doen de hartjes het ook niet meer.
 
@@ -154,17 +154,17 @@ Deze pagina gaat helemaal stuk, want elk plaatje is een link naar de blogpost.
 
 Met plaatjes:
 
-![alt text](https://github.com/Mimaaa/MINOR_WD_BROTECH/blob/master/img/blog-img.png "Plaatjes")
+![alt text](https://github.com/Mimaaa/MINOR_WD_BROTECH/blob/master/Week1/img/blog-img.png "Plaatjes")
 
 Zonder plaatjes:
 
-![alt text](https://github.com/Mimaaa/MINOR_WD_BROTECH/blob/master/img/blog-noimg.png "Geen plaatjes")
+![alt text](https://github.com/Mimaaa/MINOR_WD_BROTECH/blob/master/Week1/img/blog-noimg.png "Geen plaatjes")
 
 #### Overige
 
 Op de overige pagina's geldt grotendeels hetzelfde als bij CMD en Studentenwerk.
 
-Oplossing: 
+Oplossing:
 
 Het enige wat je ziet gebeuren wanneer iemand over de plaatjes op de blog pagina hovered is dat de opacity veranderd. Het lijkt mij dat je helemaal geen Javascript nodig hebt om deze pagina interactief te maken. Een prima fallback kan zijn om simpelweg CSS te gebruiken om hetzelfde voor elkaar te krijgen, maar wellicht denk ik te simpel?
 
@@ -180,7 +180,7 @@ Enkele technieken:
 
 ### 6. Geen trackpad/muis
 
-Ik heb het in Firefox en Chrome getest, maar er zijn helemaal geen focus styles aanwezig. Het lijkt erop dat deze op display: none staan. Heel erg vervelend natuurlijk, want op deze manier kunnen mensen die bijv. 1 arm niet kunnen gebruiken niet met de website interacteren. 
+Ik heb het in Firefox en Chrome getest, maar er zijn helemaal geen focus styles aanwezig. Het lijkt erop dat deze op display: none staan. Heel erg vervelend natuurlijk, want op deze manier kunnen mensen die bijv. 1 arm niet kunnen gebruiken niet met de website interacteren.
 
 Oplossing:
 
@@ -190,12 +190,3 @@ Duidelijke focus styles inplementeren.
 
 
 ### 8. localStorage
-
-
-
-
-
-
-
-
-
