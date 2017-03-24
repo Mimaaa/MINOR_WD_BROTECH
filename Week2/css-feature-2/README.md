@@ -12,6 +12,10 @@ I've used [this](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layou
 
 [Grid Layout](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout)
 
+### Can I Use?
+
+![alt text](https://github.com/Mimaaa/MINOR_WD_BROTECH/blob/master/Week2/css-feature-2/img/grid.png "Grid CanIUse")
+
 ## Fallback
 
 ### floats

@@ -10,6 +10,10 @@
 
 [FLAC](https://en.wikipedia.org/wiki/FLAC)
 
+### Can I Use?
+
+![alt text](https://github.com/Mimaaa/MINOR_WD_BROTECH/blob/master/Week2/html-feature-2/img/flac.png "FLAC CanIUse")
+
 ## Fallback
 
 ### <MP3>

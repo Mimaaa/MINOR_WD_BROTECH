@@ -10,7 +10,9 @@
 
 WebP lossless images are 26% smaller in size compared to PNGs. WebP lossy images are 25-34% smaller than comparable JPEG images at equivalent SSIM quality index."
 
-[A new image format for the Web](https://developers.google.com/speed/webp/)
+### Can I Use?
+
+![alt text](https://github.com/Mimaaa/MINOR_WD_BROTECH/blob/master/Week2/html-feature-1/img/webp.png "WebP CanIUse")
 
 ## Fallback
 

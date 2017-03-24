@@ -10,6 +10,10 @@
 
 [Flex Layout](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout)
 
+### Can I Use?
+
+![alt text](https://github.com/Mimaaa/MINOR_WD_BROTECH/blob/master/Week2/css-feature-1/img/flexbox.png "FlexBox CanIUse")
+
 ## Fallback
 
 ### blocks & floats
