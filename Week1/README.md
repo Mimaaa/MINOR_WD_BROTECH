@@ -188,5 +188,8 @@ Duidelijke focus styles inplementeren.
 
 ### 7. Cookies
 
+Als ik de cookies uitzet dan werkt de website nog prima. Ik heb even gekeken welke cookies aanwezig zijn en dat blijken alleen de Google Analytics cookies te zijn, dus niet iets waardoor bepaalde functionaliteiten het niet meer gaan doen.
 
 ### 8. localStorage
+
+LocalStorage wordt toegepast voor een bepaalde Wordpress admin functionaliteit. Het is dus niet iets dat CMD-Amsterdam zelf heeft geimplementeerd. De website gaat daardoor dus ook niet stuk.
