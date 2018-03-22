@@ -2,7 +2,7 @@
 
 ## LIVE
 
-[DEMO](https://mimaaa.github.io/BROTECH/Week2/html-feature-2/index.html)
+[DEMO](https://mimaaa.github.io/brotech/week-2/html-2/index.html)
 
 ## What is FLAC?
 
@@ -12,7 +12,7 @@
 
 ### Can I Use?
 
-![alt text](https://github.com/Mimaaa/MINOR_WD_BROTECH/blob/master/Week2/html-feature-2/img/flac.png "FLAC CanIUse")
+![alt text](https://github.com/Mimaaa/MINOR_WD_BROTECH/blob/master/week-2/html-2/img/flac.png "FLAC CanIUse")
 
 ## Fallback
 

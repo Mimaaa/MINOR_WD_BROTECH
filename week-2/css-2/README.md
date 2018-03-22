@@ -4,7 +4,7 @@ I've used [this](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layou
 
 ## LIVE
 
-[DEMO](https://mimaaa.github.io/BROTECH/Week2/css-feature-2/index.html)
+[DEMO](https://mimaaa.github.io/brotech/week-2/css-2/index.html)
 
 ## What is Grid?
 
@@ -14,7 +14,7 @@ I've used [this](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layou
 
 ### Can I Use?
 
-![alt text](https://github.com/Mimaaa/MINOR_WD_BROTECH/blob/master/Week2/css-feature-2/img/grid.png "Grid CanIUse")
+![alt text](https://github.com/Mimaaa/MINOR_WD_BROTECH/blob/master/week-2/css-2/img/grid.png "Grid CanIUse")
 
 ## Fallback
 

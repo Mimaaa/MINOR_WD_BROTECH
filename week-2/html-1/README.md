@@ -2,7 +2,7 @@
 
 ## LIVE
 
-[DEMO](https://mimaaa.github.io/BROTECH/Week2/html-feature-1/index.html)
+[DEMO](https://mimaaa.github.io/brotech/week-2/html-1/index.html)
 
 ## What is WebP?
 
@@ -12,7 +12,7 @@ WebP lossless images are 26% smaller in size compared to PNGs. WebP lossy images
 
 ### Can I Use?
 
-![alt text](https://github.com/Mimaaa/MINOR_WD_BROTECH/blob/master/Week2/html-feature-1/img/webp.png "WebP CanIUse")
+![alt text](https://github.com/Mimaaa/MINOR_WD_BROTECH/blob/master/week-2/html-1/img/webp.png "WebP CanIUse")
 
 ## Fallback
 

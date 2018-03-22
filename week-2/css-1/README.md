@@ -2,7 +2,7 @@
 
 ## LIVE
 
-[DEMO](https://mimaaa.github.io/BROTECH/Week2/css-feature-1/index.html)
+[DEMO](https://mimaaa.github.io/brotech/week-2/css-1/index.html)
 
 ## What is FlexBox?
 
@@ -12,7 +12,7 @@
 
 ### Can I Use?
 
-![alt text](https://github.com/Mimaaa/MINOR_WD_BROTECH/blob/master/Week2/css-feature-1/img/flexbox.png "FlexBox CanIUse")
+![alt text](https://github.com/Mimaaa/MINOR_WD_BROTECH/blob/master/week-2/css-1/img/flexbox.png "FlexBox CanIUse")
 
 ## Fallback
 
