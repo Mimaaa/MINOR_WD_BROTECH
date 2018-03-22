@@ -6,11 +6,11 @@
 
 # Week 1
 
-In the first week our assignment we needed to break the web. 
+In the first week my assignment was to break the web.
 
 [Click here](https://github.com/mimaaa/MINOR_WD_BROTECH/blob/master/week-1/README.md#opdracht-11) to read more about the first assignment.
 
-In the second assignment we needed to fork our project we made in the last week. However, I made a [virtual reality](https://github.com/Mimaaa/MINOR_WD_PROJECT1) demo and it's not really practical to research that project. Instead, I used the [CMD Amsterdam website](https://cmd-amsterdam.nl) to test certain features. 
+In the second assignment I needed to fork the project I made last week However, I made a [virtual reality](https://github.com/Mimaaa/MINOR_WD_PROJECT1) demo and it's not really practical to research that project. Instead, I used the [CMD Amsterdam website](https://cmd-amsterdam.nl) to test the given features. 
 
 [Click here](https://github.com/mimaaa/MINOR_WD_BROTECH/blob/master/week-1/README.md#opdracht-12) to read more about the second assignment. 
 
