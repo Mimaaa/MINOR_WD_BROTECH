@@ -16,3 +16,6 @@ In the second assignment I needed to fork the project I made last week However, 
 
 # Week 2
 
+In the second week my assignment was to build two HTML, two CSS and two JS features in a progressively enhanced way.
+
+[Click here](https://github.com/mimaaa/MINOR_WD_BROTECH/blob/master/week-2/README.md) to read more about this assignment.
